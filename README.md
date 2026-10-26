@@ -1,11 +1,10 @@
 # 复杂表格识别与内容理解：基于千问多模态大模型的解决方案
 
 > Complex table recognition & understanding with Qwen multimodal LLMs — a full pipeline for the Tianchi
-> “知乎知学堂大模型挑战赛”: PDF/image rendering → task-specific prompting → robust answer normalization →
+> : PDF/image rendering → task-specific prompting → robust answer normalization →
 > multi-model ensembling. Best score **80.5 / 100** (season 2).
 
-本仓库是天池 **「知乎知学堂大模型挑战赛：大模型复杂表格识别与内容理解」** 的参赛代码。
-比赛要求只使用阿里云千问系列模型（通过百炼 API 调用），从 PDF / 图片里的复杂表格中完成结构恢复、内容提取和推理计算三类题目。
+只使用阿里云千问系列模型（通过百炼 API 调用），从 PDF / 图片里的复杂表格中完成结构恢复、内容提取和推理计算三类题目。
 
 ## 成绩
 
@@ -143,4 +142,3 @@ python run.py --models qwen3.8-max --thinking   # 全量运行，结束后自动
 
 - 按比赛规则，所有模型调用都通过阿里云百炼的千问系列模型完成，不使用本地模型或第三方模型；所有答案均由程序自动生成。
 - 比赛数据版权归主办方所有，本仓库公开数据已获主办方确认。
-- 请不要提交 `.env` 文件（里面有你的 API Key）；仓库的 `.gitignore` 已经排除了它。
