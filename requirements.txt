@@ -1,0 +1,5 @@
+openai>=1.40
+pypdfium2>=4.20
+pillow>=10.0
+pandas>=2.0
+openpyxl>=3.1

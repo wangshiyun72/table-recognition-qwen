@@ -1,0 +1,18 @@
+# 密钥：绝对不要上传
+.env
+
+# 运行产物（缓存、每题结果、提交文件）
+work/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
